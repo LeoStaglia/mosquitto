@@ -1,0 +1,1249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="mosquitto"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake\;CMake Files\lib\;CMake Files\lib\cpp\;CMake Files\client\;CMake Files\src\;CMake Files\apps\;CMake Files\apps\mosquitto_ctrl\;CMake Files\apps\mosquitto_passwd\;CMake Files\plugins\;CMake Files\plugins\dynamic-security\;CMake Files\plugins\message-timestamp\;CMake Files\plugins\payload-modification\;CMake Files\man\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/parallels/mosquitto-master"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/home/parallels/mosquitto-master"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/home/parallels/mosquitto-master"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test">
+				<Option working_dir="/home/parallels/mosquitto-master"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/Makefile&quot;  VERBOSE=1 test"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/parallels/mosquitto-master"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/parallels/mosquitto-master"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/home/parallels/mosquitto-master"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/home/parallels/mosquitto-master"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="libmosquitto">
+				<Option output="/home/parallels/mosquitto-master/lib/libmosquitto.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/parallels/mosquitto-master/lib"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCMAKE"/>
+					<Add option="-DVERSION=&quot;2.0.4&quot;"/>
+					<Add option="-DWITH_TLS"/>
+					<Add option="-DWITH_TLS_PSK"/>
+					<Add option="-DWITH_EC"/>
+					<Add option="-DWITH_UNIX_SOCKETS"/>
+					<Add option="-DWITH_SOCKS"/>
+					<Add option="-DWITH_THREADING"/>
+					<Add directory="/home/parallels/mosquitto-master"/>
+					<Add directory="/home/parallels/mosquitto-master/lib"/>
+					<Add directory="/home/parallels/mosquitto-master/include"/>
+					<Add directory="/home/parallels/mosquitto-master/deps"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/lib/Makefile&quot;  VERBOSE=1 libmosquitto"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/lib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/lib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="libmosquitto/fast">
+				<Option output="/home/parallels/mosquitto-master/lib/libmosquitto.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/parallels/mosquitto-master/lib"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCMAKE"/>
+					<Add option="-DVERSION=&quot;2.0.4&quot;"/>
+					<Add option="-DWITH_TLS"/>
+					<Add option="-DWITH_TLS_PSK"/>
+					<Add option="-DWITH_EC"/>
+					<Add option="-DWITH_UNIX_SOCKETS"/>
+					<Add option="-DWITH_SOCKS"/>
+					<Add option="-DWITH_THREADING"/>
+					<Add directory="/home/parallels/mosquitto-master"/>
+					<Add directory="/home/parallels/mosquitto-master/lib"/>
+					<Add directory="/home/parallels/mosquitto-master/include"/>
+					<Add directory="/home/parallels/mosquitto-master/deps"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/lib/Makefile&quot;  VERBOSE=1 libmosquitto/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/lib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/lib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mosquittopp">
+				<Option output="/home/parallels/mosquitto-master/lib/cpp/libmosquittopp.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/parallels/mosquitto-master/lib/cpp"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCMAKE"/>
+					<Add option="-DVERSION=&quot;2.0.4&quot;"/>
+					<Add option="-DWITH_TLS"/>
+					<Add option="-DWITH_TLS_PSK"/>
+					<Add option="-DWITH_EC"/>
+					<Add option="-DWITH_UNIX_SOCKETS"/>
+					<Add option="-DWITH_SOCKS"/>
+					<Add option="-DWITH_THREADING"/>
+					<Add directory="/home/parallels/mosquitto-master/lib"/>
+					<Add directory="/home/parallels/mosquitto-master/lib/cpp"/>
+					<Add directory="/home/parallels/mosquitto-master/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/lib/cpp/Makefile&quot;  VERBOSE=1 mosquittopp"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/lib/cpp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/lib/cpp/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/lib/cpp/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mosquittopp/fast">
+				<Option output="/home/parallels/mosquitto-master/lib/cpp/libmosquittopp.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/parallels/mosquitto-master/lib/cpp"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCMAKE"/>
+					<Add option="-DVERSION=&quot;2.0.4&quot;"/>
+					<Add option="-DWITH_TLS"/>
+					<Add option="-DWITH_TLS_PSK"/>
+					<Add option="-DWITH_EC"/>
+					<Add option="-DWITH_UNIX_SOCKETS"/>
+					<Add option="-DWITH_SOCKS"/>
+					<Add option="-DWITH_THREADING"/>
+					<Add directory="/home/parallels/mosquitto-master/lib"/>
+					<Add directory="/home/parallels/mosquitto-master/lib/cpp"/>
+					<Add directory="/home/parallels/mosquitto-master/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/lib/cpp/Makefile&quot;  VERBOSE=1 mosquittopp/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/lib/cpp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/lib/cpp/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/lib/cpp/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mosquitto_pub">
+				<Option output="/home/parallels/mosquitto-master/client/mosquitto_pub" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/parallels/mosquitto-master/client"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCMAKE"/>
+					<Add option="-DVERSION=&quot;2.0.4&quot;"/>
+					<Add option="-DWITH_TLS"/>
+					<Add option="-DWITH_TLS_PSK"/>
+					<Add option="-DWITH_EC"/>
+					<Add option="-DWITH_UNIX_SOCKETS"/>
+					<Add option="-DWITH_SOCKS"/>
+					<Add option="-DWITH_THREADING"/>
+					<Add directory="/home/parallels/mosquitto-master"/>
+					<Add directory="/home/parallels/mosquitto-master/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/client/Makefile&quot;  VERBOSE=1 mosquitto_pub"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/client/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/client/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/client/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mosquitto_pub/fast">
+				<Option output="/home/parallels/mosquitto-master/client/mosquitto_pub" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/parallels/mosquitto-master/client"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCMAKE"/>
+					<Add option="-DVERSION=&quot;2.0.4&quot;"/>
+					<Add option="-DWITH_TLS"/>
+					<Add option="-DWITH_TLS_PSK"/>
+					<Add option="-DWITH_EC"/>
+					<Add option="-DWITH_UNIX_SOCKETS"/>
+					<Add option="-DWITH_SOCKS"/>
+					<Add option="-DWITH_THREADING"/>
+					<Add directory="/home/parallels/mosquitto-master"/>
+					<Add directory="/home/parallels/mosquitto-master/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/client/Makefile&quot;  VERBOSE=1 mosquitto_pub/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/client/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/client/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/client/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mosquitto_rr">
+				<Option output="/home/parallels/mosquitto-master/client/mosquitto_rr" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/parallels/mosquitto-master/client"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCMAKE"/>
+					<Add option="-DVERSION=&quot;2.0.4&quot;"/>
+					<Add option="-DWITH_TLS"/>
+					<Add option="-DWITH_TLS_PSK"/>
+					<Add option="-DWITH_EC"/>
+					<Add option="-DWITH_UNIX_SOCKETS"/>
+					<Add option="-DWITH_SOCKS"/>
+					<Add option="-DWITH_THREADING"/>
+					<Add directory="/home/parallels/mosquitto-master"/>
+					<Add directory="/home/parallels/mosquitto-master/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/client/Makefile&quot;  VERBOSE=1 mosquitto_rr"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/client/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/client/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/client/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mosquitto_rr/fast">
+				<Option output="/home/parallels/mosquitto-master/client/mosquitto_rr" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/parallels/mosquitto-master/client"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCMAKE"/>
+					<Add option="-DVERSION=&quot;2.0.4&quot;"/>
+					<Add option="-DWITH_TLS"/>
+					<Add option="-DWITH_TLS_PSK"/>
+					<Add option="-DWITH_EC"/>
+					<Add option="-DWITH_UNIX_SOCKETS"/>
+					<Add option="-DWITH_SOCKS"/>
+					<Add option="-DWITH_THREADING"/>
+					<Add directory="/home/parallels/mosquitto-master"/>
+					<Add directory="/home/parallels/mosquitto-master/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/client/Makefile&quot;  VERBOSE=1 mosquitto_rr/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/client/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/client/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/client/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mosquitto_sub">
+				<Option output="/home/parallels/mosquitto-master/client/mosquitto_sub" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/parallels/mosquitto-master/client"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCMAKE"/>
+					<Add option="-DVERSION=&quot;2.0.4&quot;"/>
+					<Add option="-DWITH_TLS"/>
+					<Add option="-DWITH_TLS_PSK"/>
+					<Add option="-DWITH_EC"/>
+					<Add option="-DWITH_UNIX_SOCKETS"/>
+					<Add option="-DWITH_SOCKS"/>
+					<Add option="-DWITH_THREADING"/>
+					<Add directory="/home/parallels/mosquitto-master"/>
+					<Add directory="/home/parallels/mosquitto-master/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/client/Makefile&quot;  VERBOSE=1 mosquitto_sub"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/client/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/client/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/client/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mosquitto_sub/fast">
+				<Option output="/home/parallels/mosquitto-master/client/mosquitto_sub" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/parallels/mosquitto-master/client"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCMAKE"/>
+					<Add option="-DVERSION=&quot;2.0.4&quot;"/>
+					<Add option="-DWITH_TLS"/>
+					<Add option="-DWITH_TLS_PSK"/>
+					<Add option="-DWITH_EC"/>
+					<Add option="-DWITH_UNIX_SOCKETS"/>
+					<Add option="-DWITH_SOCKS"/>
+					<Add option="-DWITH_THREADING"/>
+					<Add directory="/home/parallels/mosquitto-master"/>
+					<Add directory="/home/parallels/mosquitto-master/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/client/Makefile&quot;  VERBOSE=1 mosquitto_sub/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/client/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/client/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/client/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mosquitto">
+				<Option output="/home/parallels/mosquitto-master/src/mosquitto" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/parallels/mosquitto-master/src"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCMAKE"/>
+					<Add option="-DVERSION=&quot;2.0.4&quot;"/>
+					<Add option="-DWITH_TLS"/>
+					<Add option="-DWITH_TLS_PSK"/>
+					<Add option="-DWITH_EC"/>
+					<Add option="-DWITH_UNIX_SOCKETS"/>
+					<Add option="-DWITH_SOCKS"/>
+					<Add option="-DWITH_THREADING"/>
+					<Add option="-DWITH_BRIDGE"/>
+					<Add option="-DWITH_MEMORY_TRACKING"/>
+					<Add option="-DWITH_PERSISTENCE"/>
+					<Add option="-DWITH_SYS_TREE"/>
+					<Add option="-DWITH_CONTROL"/>
+					<Add option="-DWITH_BROKER"/>
+					<Add directory="/home/parallels/mosquitto-master"/>
+					<Add directory="/home/parallels/mosquitto-master/src"/>
+					<Add directory="/home/parallels/mosquitto-master/include"/>
+					<Add directory="/home/parallels/mosquitto-master/lib"/>
+					<Add directory="/home/parallels/mosquitto-master/deps"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/src/Makefile&quot;  VERBOSE=1 mosquitto"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mosquitto/fast">
+				<Option output="/home/parallels/mosquitto-master/src/mosquitto" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/parallels/mosquitto-master/src"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCMAKE"/>
+					<Add option="-DVERSION=&quot;2.0.4&quot;"/>
+					<Add option="-DWITH_TLS"/>
+					<Add option="-DWITH_TLS_PSK"/>
+					<Add option="-DWITH_EC"/>
+					<Add option="-DWITH_UNIX_SOCKETS"/>
+					<Add option="-DWITH_SOCKS"/>
+					<Add option="-DWITH_THREADING"/>
+					<Add option="-DWITH_BRIDGE"/>
+					<Add option="-DWITH_MEMORY_TRACKING"/>
+					<Add option="-DWITH_PERSISTENCE"/>
+					<Add option="-DWITH_SYS_TREE"/>
+					<Add option="-DWITH_CONTROL"/>
+					<Add option="-DWITH_BROKER"/>
+					<Add directory="/home/parallels/mosquitto-master"/>
+					<Add directory="/home/parallels/mosquitto-master/src"/>
+					<Add directory="/home/parallels/mosquitto-master/include"/>
+					<Add directory="/home/parallels/mosquitto-master/lib"/>
+					<Add directory="/home/parallels/mosquitto-master/deps"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/src/Makefile&quot;  VERBOSE=1 mosquitto/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mosquitto_passwd">
+				<Option output="/home/parallels/mosquitto-master/apps/mosquitto_passwd/mosquitto_passwd" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/parallels/mosquitto-master/apps/mosquitto_passwd"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCMAKE"/>
+					<Add option="-DVERSION=&quot;2.0.4&quot;"/>
+					<Add option="-DWITH_TLS"/>
+					<Add option="-DWITH_TLS_PSK"/>
+					<Add option="-DWITH_EC"/>
+					<Add option="-DWITH_UNIX_SOCKETS"/>
+					<Add option="-DWITH_SOCKS"/>
+					<Add option="-DWITH_THREADING"/>
+					<Add directory="/home/parallels/mosquitto-master"/>
+					<Add directory="/home/parallels/mosquitto-master/include"/>
+					<Add directory="/home/parallels/mosquitto-master/lib"/>
+					<Add directory="/home/parallels/mosquitto-master/src"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/apps/mosquitto_passwd/Makefile&quot;  VERBOSE=1 mosquitto_passwd"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/apps/mosquitto_passwd/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/apps/mosquitto_passwd/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/apps/mosquitto_passwd/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mosquitto_passwd/fast">
+				<Option output="/home/parallels/mosquitto-master/apps/mosquitto_passwd/mosquitto_passwd" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/parallels/mosquitto-master/apps/mosquitto_passwd"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCMAKE"/>
+					<Add option="-DVERSION=&quot;2.0.4&quot;"/>
+					<Add option="-DWITH_TLS"/>
+					<Add option="-DWITH_TLS_PSK"/>
+					<Add option="-DWITH_EC"/>
+					<Add option="-DWITH_UNIX_SOCKETS"/>
+					<Add option="-DWITH_SOCKS"/>
+					<Add option="-DWITH_THREADING"/>
+					<Add directory="/home/parallels/mosquitto-master"/>
+					<Add directory="/home/parallels/mosquitto-master/include"/>
+					<Add directory="/home/parallels/mosquitto-master/lib"/>
+					<Add directory="/home/parallels/mosquitto-master/src"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/apps/mosquitto_passwd/Makefile&quot;  VERBOSE=1 mosquitto_passwd/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/apps/mosquitto_passwd/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/apps/mosquitto_passwd/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/apps/mosquitto_passwd/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mosquitto_message_timestamp">
+				<Option output="/home/parallels/mosquitto-master/plugins/message-timestamp/mosquitto_message_timestamp.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/parallels/mosquitto-master/plugins/message-timestamp"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCMAKE"/>
+					<Add option="-DVERSION=&quot;2.0.4&quot;"/>
+					<Add option="-DWITH_TLS"/>
+					<Add option="-DWITH_TLS_PSK"/>
+					<Add option="-DWITH_EC"/>
+					<Add option="-DWITH_UNIX_SOCKETS"/>
+					<Add option="-DWITH_SOCKS"/>
+					<Add option="-DWITH_THREADING"/>
+					<Add directory="/home/parallels/mosquitto-master"/>
+					<Add directory="/home/parallels/mosquitto-master/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/plugins/message-timestamp/Makefile&quot;  VERBOSE=1 mosquitto_message_timestamp"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/plugins/message-timestamp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/plugins/message-timestamp/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/plugins/message-timestamp/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mosquitto_message_timestamp/fast">
+				<Option output="/home/parallels/mosquitto-master/plugins/message-timestamp/mosquitto_message_timestamp.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/parallels/mosquitto-master/plugins/message-timestamp"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCMAKE"/>
+					<Add option="-DVERSION=&quot;2.0.4&quot;"/>
+					<Add option="-DWITH_TLS"/>
+					<Add option="-DWITH_TLS_PSK"/>
+					<Add option="-DWITH_EC"/>
+					<Add option="-DWITH_UNIX_SOCKETS"/>
+					<Add option="-DWITH_SOCKS"/>
+					<Add option="-DWITH_THREADING"/>
+					<Add directory="/home/parallels/mosquitto-master"/>
+					<Add directory="/home/parallels/mosquitto-master/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/plugins/message-timestamp/Makefile&quot;  VERBOSE=1 mosquitto_message_timestamp/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/plugins/message-timestamp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/plugins/message-timestamp/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/plugins/message-timestamp/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mosquitto_payload_modification">
+				<Option output="/home/parallels/mosquitto-master/plugins/payload-modification/mosquitto_payload_modification.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/parallels/mosquitto-master/plugins/payload-modification"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCMAKE"/>
+					<Add option="-DVERSION=&quot;2.0.4&quot;"/>
+					<Add option="-DWITH_TLS"/>
+					<Add option="-DWITH_TLS_PSK"/>
+					<Add option="-DWITH_EC"/>
+					<Add option="-DWITH_UNIX_SOCKETS"/>
+					<Add option="-DWITH_SOCKS"/>
+					<Add option="-DWITH_THREADING"/>
+					<Add directory="/home/parallels/mosquitto-master"/>
+					<Add directory="/home/parallels/mosquitto-master/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/plugins/payload-modification/Makefile&quot;  VERBOSE=1 mosquitto_payload_modification"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/plugins/payload-modification/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/plugins/payload-modification/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/plugins/payload-modification/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mosquitto_payload_modification/fast">
+				<Option output="/home/parallels/mosquitto-master/plugins/payload-modification/mosquitto_payload_modification.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/parallels/mosquitto-master/plugins/payload-modification"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCMAKE"/>
+					<Add option="-DVERSION=&quot;2.0.4&quot;"/>
+					<Add option="-DWITH_TLS"/>
+					<Add option="-DWITH_TLS_PSK"/>
+					<Add option="-DWITH_EC"/>
+					<Add option="-DWITH_UNIX_SOCKETS"/>
+					<Add option="-DWITH_SOCKS"/>
+					<Add option="-DWITH_THREADING"/>
+					<Add directory="/home/parallels/mosquitto-master"/>
+					<Add directory="/home/parallels/mosquitto-master/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/plugins/payload-modification/Makefile&quot;  VERBOSE=1 mosquitto_payload_modification/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/plugins/payload-modification/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/plugins/payload-modification/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/plugins/payload-modification/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mosquitto_ctrl_dynsec.1">
+				<Option working_dir="/home/parallels/mosquitto-master/man"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/man/Makefile&quot;  VERBOSE=1 mosquitto_ctrl_dynsec.1"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/man/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/man/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/man/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mosquitto_passwd.1">
+				<Option working_dir="/home/parallels/mosquitto-master/man"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/man/Makefile&quot;  VERBOSE=1 mosquitto_passwd.1"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/man/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/man/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/man/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mosquitto_sub.1">
+				<Option working_dir="/home/parallels/mosquitto-master/man"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/man/Makefile&quot;  VERBOSE=1 mosquitto_sub.1"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/man/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/man/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/man/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mosquitto_rr.1">
+				<Option working_dir="/home/parallels/mosquitto-master/man"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/man/Makefile&quot;  VERBOSE=1 mosquitto_rr.1"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/man/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/man/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/man/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mosquitto-tls.7">
+				<Option working_dir="/home/parallels/mosquitto-master/man"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/man/Makefile&quot;  VERBOSE=1 mosquitto-tls.7"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/man/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/man/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/man/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mosquitto_pub.1">
+				<Option working_dir="/home/parallels/mosquitto-master/man"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/man/Makefile&quot;  VERBOSE=1 mosquitto_pub.1"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/man/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/man/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/man/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="libmosquitto.3">
+				<Option working_dir="/home/parallels/mosquitto-master/man"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/man/Makefile&quot;  VERBOSE=1 libmosquitto.3"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/man/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/man/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/man/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mosquitto.8">
+				<Option working_dir="/home/parallels/mosquitto-master/man"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/man/Makefile&quot;  VERBOSE=1 mosquitto.8"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/man/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/man/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/man/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mosquitto.conf.5">
+				<Option working_dir="/home/parallels/mosquitto-master/man"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/man/Makefile&quot;  VERBOSE=1 mosquitto.conf.5"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/man/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/man/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/man/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mosquitto_ctrl.1">
+				<Option working_dir="/home/parallels/mosquitto-master/man"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/man/Makefile&quot;  VERBOSE=1 mosquitto_ctrl.1"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/man/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/man/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/man/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mqtt.7">
+				<Option working_dir="/home/parallels/mosquitto-master/man"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/man/Makefile&quot;  VERBOSE=1 mqtt.7"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/man/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/man/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/parallels/mosquitto-master/man/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/parallels/mosquitto-master/apps/mosquitto_passwd/get_password.c">
+			<Option target="mosquitto_passwd"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/apps/mosquitto_passwd/get_password.h">
+			<Option target="mosquitto_passwd"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/apps/mosquitto_passwd/mosquitto_passwd.c">
+			<Option target="mosquitto_passwd"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/client/client_props.c">
+			<Option target="mosquitto_pub"/>
+			<Option target="mosquitto_rr"/>
+			<Option target="mosquitto_sub"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/client/client_shared.c">
+			<Option target="mosquitto_pub"/>
+			<Option target="mosquitto_rr"/>
+			<Option target="mosquitto_sub"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/client/client_shared.h">
+			<Option target="mosquitto_pub"/>
+			<Option target="mosquitto_rr"/>
+			<Option target="mosquitto_sub"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/client/pub_client.c">
+			<Option target="mosquitto_pub"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/client/pub_shared.c">
+			<Option target="mosquitto_pub"/>
+			<Option target="mosquitto_rr"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/client/pub_shared.h">
+			<Option target="mosquitto_pub"/>
+			<Option target="mosquitto_rr"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/client/rr_client.c">
+			<Option target="mosquitto_rr"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/client/sub_client.c">
+			<Option target="mosquitto_sub"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/client/sub_client_output.c">
+			<Option target="mosquitto_rr"/>
+			<Option target="mosquitto_sub"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/client/sub_client_output.h">
+			<Option target="mosquitto_rr"/>
+			<Option target="mosquitto_sub"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/include/mosquitto.h">
+			<Option target="libmosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/include/mosquitto_broker.h">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/include/mqtt_protocol.h">
+			<Option target="libmosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/lib/actions.c">
+			<Option target="libmosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/lib/alias_mosq.c">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/lib/alias_mosq.h">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/lib/callbacks.c">
+			<Option target="libmosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/lib/connect.c">
+			<Option target="libmosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/lib/cpp/mosquittopp.cpp">
+			<Option target="mosquittopp"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/lib/cpp/mosquittopp.h">
+			<Option target="mosquittopp"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/lib/handle_auth.c">
+			<Option target="libmosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/lib/handle_connack.c">
+			<Option target="libmosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/lib/handle_disconnect.c">
+			<Option target="libmosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/lib/handle_ping.c">
+			<Option target="libmosquitto"/>
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/lib/handle_pubackcomp.c">
+			<Option target="libmosquitto"/>
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/lib/handle_publish.c">
+			<Option target="libmosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/lib/handle_pubrec.c">
+			<Option target="libmosquitto"/>
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/lib/handle_pubrel.c">
+			<Option target="libmosquitto"/>
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/lib/handle_suback.c">
+			<Option target="libmosquitto"/>
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/lib/handle_unsuback.c">
+			<Option target="libmosquitto"/>
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/lib/helpers.c">
+			<Option target="libmosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/lib/logging_mosq.c">
+			<Option target="libmosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/lib/logging_mosq.h">
+			<Option target="libmosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/lib/loop.c">
+			<Option target="libmosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/lib/memory_mosq.c">
+			<Option target="libmosquitto"/>
+			<Option target="mosquitto"/>
+			<Option target="mosquitto_passwd"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/lib/memory_mosq.h">
+			<Option target="libmosquitto"/>
+			<Option target="mosquitto"/>
+			<Option target="mosquitto_passwd"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/lib/messages_mosq.c">
+			<Option target="libmosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/lib/messages_mosq.h">
+			<Option target="libmosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/lib/misc_mosq.c">
+			<Option target="libmosquitto"/>
+			<Option target="mosquitto"/>
+			<Option target="mosquitto_passwd"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/lib/misc_mosq.h">
+			<Option target="libmosquitto"/>
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/lib/mosquitto.c">
+			<Option target="libmosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/lib/mosquitto_internal.h">
+			<Option target="libmosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/lib/net_mosq.c">
+			<Option target="libmosquitto"/>
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/lib/net_mosq.h">
+			<Option target="libmosquitto"/>
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/lib/net_mosq_ocsp.c">
+			<Option target="libmosquitto"/>
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/lib/options.c">
+			<Option target="libmosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/lib/packet_datatypes.c">
+			<Option target="libmosquitto"/>
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/lib/packet_mosq.c">
+			<Option target="libmosquitto"/>
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/lib/packet_mosq.h">
+			<Option target="libmosquitto"/>
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/lib/property_mosq.c">
+			<Option target="libmosquitto"/>
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/lib/property_mosq.h">
+			<Option target="libmosquitto"/>
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/lib/read_handle.c">
+			<Option target="libmosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/lib/read_handle.h">
+			<Option target="libmosquitto"/>
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/lib/send_connect.c">
+			<Option target="libmosquitto"/>
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/lib/send_disconnect.c">
+			<Option target="libmosquitto"/>
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/lib/send_mosq.c">
+			<Option target="libmosquitto"/>
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/lib/send_mosq.h">
+			<Option target="libmosquitto"/>
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/lib/send_publish.c">
+			<Option target="libmosquitto"/>
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/lib/send_subscribe.c">
+			<Option target="libmosquitto"/>
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/lib/send_unsubscribe.c">
+			<Option target="libmosquitto"/>
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/lib/socks_mosq.c">
+			<Option target="libmosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/lib/socks_mosq.h">
+			<Option target="libmosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/lib/srv_mosq.c">
+			<Option target="libmosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/lib/strings_mosq.c">
+			<Option target="libmosquitto"/>
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/lib/thread_mosq.c">
+			<Option target="libmosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/lib/time_mosq.c">
+			<Option target="libmosquitto"/>
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/lib/time_mosq.h">
+			<Option target="libmosquitto"/>
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/lib/tls_mosq.c">
+			<Option target="libmosquitto"/>
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/lib/tls_mosq.h">
+			<Option target="libmosquitto"/>
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/lib/utf8_mosq.c">
+			<Option target="libmosquitto"/>
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/lib/util_mosq.c">
+			<Option target="libmosquitto"/>
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/lib/util_mosq.h">
+			<Option target="libmosquitto"/>
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/lib/util_topic.c">
+			<Option target="libmosquitto"/>
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/lib/will_mosq.c">
+			<Option target="libmosquitto"/>
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/lib/will_mosq.h">
+			<Option target="libmosquitto"/>
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/man/libmosquitto.3.xml">
+			<Option target="libmosquitto.3"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/man/mosquitto-tls.7.xml">
+			<Option target="mosquitto-tls.7"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/man/mosquitto.8.xml">
+			<Option target="mosquitto.8"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/man/mosquitto.conf.5.xml">
+			<Option target="mosquitto.conf.5"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/man/mosquitto_ctrl.1.xml">
+			<Option target="mosquitto_ctrl.1"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/man/mosquitto_ctrl_dynsec.1.xml">
+			<Option target="mosquitto_ctrl_dynsec.1"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/man/mosquitto_passwd.1.xml">
+			<Option target="mosquitto_passwd.1"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/man/mosquitto_pub.1.xml">
+			<Option target="mosquitto_pub.1"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/man/mosquitto_rr.1.xml">
+			<Option target="mosquitto_rr.1"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/man/mosquitto_sub.1.xml">
+			<Option target="mosquitto_sub.1"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/man/mqtt.7.xml">
+			<Option target="mqtt.7"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/plugins/message-timestamp/mosquitto_message_timestamp.c">
+			<Option target="mosquitto_message_timestamp"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/plugins/payload-modification/mosquitto_payload_modification.c">
+			<Option target="mosquitto_payload_modification"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/src/bridge.c">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/src/bridge_topic.c">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/src/conf.c">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/src/conf_includedir.c">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/src/context.c">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/src/control.c">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/src/database.c">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/src/handle_auth.c">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/src/handle_connack.c">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/src/handle_connect.c">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/src/handle_disconnect.c">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/src/handle_mqtt_plus_publish.c">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/src/handle_mqtt_plus_publish.h">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/src/handle_mqtt_plus_subscribe.c">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/src/handle_mqtt_plus_subscribe.h">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/src/handle_mqtt_plus_sys.c">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/src/handle_mqtt_plus_sys.h">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/src/handle_mqtt_plus_unsubscribe.c">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/src/handle_mqtt_plus_unsubscribe.h">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/src/handle_publish.c">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/src/handle_subscribe.c">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/src/handle_unsubscribe.c">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/src/http.c">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/src/http.h">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/src/json.c">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/src/json.h">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/src/keepalive.c">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/src/lib_load.h">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/src/logging.c">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/src/loop.c">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/src/memory_public.c">
+			<Option target="mosquitto"/>
+			<Option target="mosquitto_passwd"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/src/mosquitto.c">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/src/mosquitto_broker_internal.h">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/src/mux.c">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/src/mux.h">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/src/mux_epoll.c">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/src/mux_poll.c">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/src/net.c">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/src/password_mosq.c">
+			<Option target="mosquitto"/>
+			<Option target="mosquitto_passwd"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/src/password_mosq.h">
+			<Option target="mosquitto"/>
+			<Option target="mosquitto_passwd"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/src/persist.h">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/src/persist_read.c">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/src/persist_read_v234.c">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/src/persist_read_v5.c">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/src/persist_write.c">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/src/persist_write_v5.c">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/src/plugin.c">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/src/plugin_public.c">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/src/property_broker.c">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/src/read_handle.c">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/src/retain.c">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/src/security.c">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/src/security_default.c">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/src/send_auth.c">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/src/send_connack.c">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/src/send_suback.c">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/src/send_unsuback.c">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/src/session_expiry.c">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/src/signals.c">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/src/subs.c">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/src/sys_tree.c">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/src/sys_tree.h">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/src/topic_tok.c">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/src/websockets.c">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/src/will_delay.c">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/libmosquitto.pc.in">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/libmosquittopp.pc.in">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/cmake/FindcJSON.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/lib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/lib/cpp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\cpp\"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/client/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\client\"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/apps/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\apps\"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/apps/mosquitto_ctrl/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\apps\mosquitto_ctrl\"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/apps/mosquitto_passwd/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\apps\mosquitto_passwd\"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/plugins/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\plugins\"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/plugins/dynamic-security/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\plugins\dynamic-security\"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/plugins/message-timestamp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\plugins\message-timestamp\"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/plugins/payload-modification/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\plugins\payload-modification\"/>
+		</Unit>
+		<Unit filename="/home/parallels/mosquitto-master/man/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\man\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

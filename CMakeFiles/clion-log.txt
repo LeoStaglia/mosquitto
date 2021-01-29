@@ -1,0 +1,8 @@
+/home/parallels/clion-2020.2.4/bin/cmake/linux/bin/cmake -G "CodeBlocks - Unix Makefiles" /home/parallels/mosquitto-master
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1")  
+-- WITH_DLT = OFF
+-- Could NOT find cJSON (missing: CJSON_INCLUDE_DIR CJSON_LIBRARY) 
+-- Optional dependency cJSON not found. Some features will be disabled.
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/parallels/mosquitto-master
