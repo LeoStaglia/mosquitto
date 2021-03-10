@@ -168,7 +168,7 @@ int handle__subscribe(struct mosquitto *context)
 			}
 			log__printf(NULL, MOSQ_LOG_DEBUG, "\t%s (QoS %d)", sub, qos);
 
-            if(sub[0]=='$'){
+            if(!is_distributed_sub && sub[0]=='$'){
                 if(!strncmp(sub,"$SYS",strlen("$SYS")) == 0) {
                     if (mqtt_plus_subscribe(sub, context->id, qos)) {
                         log__printf(NULL, MOSQ_LOG_INFO,
@@ -179,7 +179,8 @@ int handle__subscribe(struct mosquitto *context)
                         return 1;
                     }
                 }
-            }else if(sub[0]!='$' && strncmp(sub,"$SYS",strlen("$SYS")) != 0 && is_distributed_sub) {
+            }
+            if(sub[0]!='$' && strncmp(sub,"$SYS",strlen("$SYS")) != 0 && is_distributed_sub) {
                 mqtt_plus_subscribe(sub, context->id, qos);
             }
 
