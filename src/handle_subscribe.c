@@ -179,9 +179,7 @@ int handle__subscribe(struct mosquitto *context)
                         return 1;
                     }
                 }
-            }
-
-            if(sub[0]!='$' && strncmp(sub,"$SYS",strlen("$SYS")) != 0 && is_distributed_sub) {
+            }else if(sub[0]!='$' && strncmp(sub,"$SYS",strlen("$SYS")) != 0 && is_distributed_sub) {
                 mqtt_plus_subscribe(sub, context->id, qos);
             }
 
