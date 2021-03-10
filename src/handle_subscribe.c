@@ -168,8 +168,8 @@ int handle__subscribe(struct mosquitto *context)
 			}
 			log__printf(NULL, MOSQ_LOG_DEBUG, "\t%s (QoS %d)", sub, qos);
 
-            if(!is_distributed_sub && sub[0]=='$'){
-                if(!strncmp(sub,"$SYS",strlen("$SYS")) == 0) {
+            if(sub[0]=='$') {
+                if (!strncmp(sub, "$SYS", strlen("$SYS")) == 0) {
                     if (mqtt_plus_subscribe(sub, context->id, qos)) {
                         log__printf(NULL, MOSQ_LOG_INFO,
                                     "Invalid MQTT+ subscription command from %s, disconnecting.",
@@ -179,8 +179,7 @@ int handle__subscribe(struct mosquitto *context)
                         return 1;
                     }
                 }
-            }
-            if(sub[0]!='$' && strncmp(sub,"$SYS",strlen("$SYS")) != 0 && is_distributed_sub) {
+            }else if(sub[0]!='$' && strncmp(sub,"$SYS",strlen("$SYS")) != 0 && is_distributed_sub) {
                 mqtt_plus_subscribe(sub, context->id, qos);
             }
 
